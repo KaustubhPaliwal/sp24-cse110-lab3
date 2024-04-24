@@ -1,0 +1,27 @@
+/* Welcome to the CSS File for Lab 3 */
+
+.body{
+    background-color: white;
+    --laker_purple: #552583;
+}
+
+.github_folder{
+    color: color(from green srgb r g b / 0.5);
+}
+
+.Main_Headers{
+    color: var(--laker_purple, #552583);
+}
+
+h2{
+    color: rgb(253, 185, 39);
+}
+
+h3{
+    color: color-mix(in srgb, #34c9eb 20%, white);
+}
+
+footer{
+    color: hsl(0°, 0%, 83%);
+}
+
