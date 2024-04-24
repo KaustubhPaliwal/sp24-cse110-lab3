@@ -28,7 +28,7 @@ h2{
 }
 
 h3{
-    color: color-mix(#040267 80%, white);
+    color: color-mix(in srgb, #040267 80%, white);
 }
 
 footer{
@@ -60,7 +60,7 @@ section{
 }
 
 header{
-    color: color-mix(#040267 80%, white);
+    color: color-mix(in srgb, #040267 80%, white);
     text-decoration: yellow wavy underline;
 }
 
@@ -100,7 +100,7 @@ button:hover{
 }
 
 [href="https://www.youtube.com"]:active{
-    color: color(srgb 0 128 0 / 50%);
+    color: color(from green srgb r g b / 0.5);
 }
 
 @media screen{
