@@ -8,7 +8,11 @@
 
 .github_folder{
     color: color(from green srgb r g b / 0.5);
-  margin: 2% 0% 2% 0%
+    margin: auto;
+  position: sticky;
+  top: 0px;
+  display: inline-block;
+  min-width: 60%;
 }
 
 .Main_headers{
@@ -25,11 +29,17 @@ h3{
 
 footer{
     color: hsl(0°, 0%, 83%);
-  margin: auto;
+  border-style: dotted;
+    border-color: var(--laker_yellow,  rgb(253, 185, 39));
+    border-width: 4px;
+    border-radius: 2%;
+   margin: 2% 2% 2% 2%;
   padding: 2% 2% 2% 2%;
+  display: block;
 }
 
 section{
+  position: static;
     border-style: dotted;
     border-color: var(--laker_yellow,  rgb(253, 185, 39));
     border-width: 4px;
@@ -42,4 +52,73 @@ section{
   padding-bottom: 2%;
   padding-right: 2%;
   padding-left: 2%;
+    color: brown;
 }
+
+header{
+      color: color-mix(in srgb, #040267 80%, white);
+    text-decoration: yellow wavy underline;
+}
+
+span{
+  color: red;
+  text-align: start;
+}
+
+ul{
+    display: grid;
+  margin: auto;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: auto; 
+    gap: 7%; 
+    padding-bottom: 2%;
+}
+ol{
+    display: grid;
+  margin: auto;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: auto; 
+    gap: 7%; 
+}
+
+#Brain{
+    display: grid;
+  margin: auto;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: auto; 
+    gap: 7%; 
+      padding-bottom: 2%;
+}
+
+img{
+  max-width: 80%;
+}
+
+video{
+  max-width: 80%;
+}
+
+button:hover{
+  color: #552583;
+  
+}
+
+radio:active{
+  color: #552583;
+}
+
+@media screen{
+    body {
+        font-size: 14px;
+    }
+}
+
+#Headers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around; 
+}
+  
+  
+
