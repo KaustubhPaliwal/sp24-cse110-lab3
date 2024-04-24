@@ -99,8 +99,8 @@ color: #552583;
 
 }
 
-input:active{
-color: #552583;
+[href="https://www.youtube.com"]:active{
+    color: color(green srgb r g b / 0.5);
 }
 
 @media screen{
