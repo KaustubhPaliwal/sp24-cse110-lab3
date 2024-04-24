@@ -9,7 +9,7 @@
     color: color(from green srgb r g b / 0.5);
 }
 
-.Main_Headers{
+.Main_headers{
     color: var(--laker_purple, #552583);
 }
 
@@ -18,7 +18,7 @@ h2{
 }
 
 h3{
-    color: color-mix(in srgb, #34c9eb 20%, white);
+    color: color-mix(in srgb, #040267 80%, white);
 }
 
 footer{
