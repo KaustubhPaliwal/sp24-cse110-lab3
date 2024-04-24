@@ -3,10 +3,12 @@
 .body{
     background-color: white;
     --laker_purple: #552583;
+    --laker_yellow: rgb(253, 185, 39);
 }
 
 .github_folder{
     color: color(from green srgb r g b / 0.5);
+  margin: 2% 0% 2% 0%
 }
 
 .Main_headers{
@@ -23,5 +25,21 @@ h3{
 
 footer{
     color: hsl(0°, 0%, 83%);
+  margin: auto;
+  padding: 2% 2% 2% 2%;
 }
 
+section{
+    border-style: dotted;
+    border-color: var(--laker_yellow,  rgb(253, 185, 39));
+    border-width: 4px;
+    border-radius: 2%;
+  margin-top: 2%;
+  margin-right: 2%;
+  margin-left: 2%;
+  margin-bottom: 2%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-right: 2%;
+  padding-left: 2%;
+}
